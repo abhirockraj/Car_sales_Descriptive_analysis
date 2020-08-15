@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car_price prediction</title>
+    <link rel="stylesheet" href="selector.css">
+   
+
+</head>
+<body>
+   <form action="#" method="post">
+       <div ><label >symboling:<input type="text" required name="sy" placeholder="enter between -2 to 3"></label></div>
+        <div><label >wheel_base:<input type="text" required name="wb" placeholder="enter between 86 to 120"></label></div>
+        <div><label >lenght:      <input type="text" required name="l" placeholder="enter between 140 to 210"></label></div>
+    
+    
+        <div><label >width:<input type="text" required name="w" placeholder="enter between 60 to 75"></label></div>
+       <div><label >height:<input type="text" required name="h" placeholder="enter between 47 to 60"></label></div>
+       <div><label >curb_weight:<input type="text" required name="cw" placeholder="enter between 1488 to 4066"></label></div>
+       
+    
+       
+        <div><label >engine_size:<input type="text" required name="es" placeholder="enter between 61 to 326"></label></div>
+        <div><label >bore:<input type="text" required name="b" placeholder="enter between 2.5 to 3.9"></label></div>
+        <div><label >stroke:<input type="text" required name="s" placeholder="enyer between 2 to 4.2"></label></div>
+
+       
+        <div><label >compression_ratio:<input type="text" required name="cr" placeholder="enter between 7 to 23"></label></div>
+        <div><label >horsepower:<input type="text" required name="hr" placeholder="enter between 48 to 288"></label></div>
+        <div><label >peak_rpm:<input type="text" required name="pr" placeholder="enter between 4000 to 6600"></label></div>
+       
+       <div>
+        <label >city_mpg:<input type="text" required name="cm" placeholder="enter between 13 to 49"></label></div>
+        <div><label >highway_mpg:<input type="text" required name="hm" placeholder="enter between 16 to 54"></label></div>
+        <div><label >cylinder:<input type="text" required name="c" placeholder="enter between 2 to 12"></label>
+       </div>
+       <div><button type="submit">Predict Car Price</button>
+       </div>
+
+       <br>
+       <br>
+       {{ prediction_text }}
+    
+   </form>
+</body>
+</html>
